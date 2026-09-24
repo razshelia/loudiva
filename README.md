@@ -12,7 +12,7 @@ Tampilan Desktop:
 
 Tampilan Tablet:
 
-![Tampilan Tablet](ss/tablet.png)
+![Tampilan Tablet](ss/ipad.png)
 
 Tampilan Mobile:
 
