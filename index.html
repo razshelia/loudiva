@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LOUDIVA</title>
+  <meta name="description" content="LOUDIVA Co. is the home of artist management for Lisa and IVE.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+  <nav class="menu" id="menu" aria-label="Main">
+    <button class="menu-close" aria-label="Close menu" style="font-size: 2.5rem; color: #fff;">&times;</button>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#artist">Artist</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="socials">
+      <li><a href="https://www.tiktok.com/@wearelloud" target="_blank" rel="noopener noreferrer"><img src="img/tiktok.png" alt="TikTok"></a></li>
+      <li><a href="https://www.instagram.com/wearelloud/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.png" alt="Instagram"></a></li>
+      <li><a href="https://www.youtube.com/@wearelloud" target="_blank" rel="noopener noreferrer"><img src="img/youtube.png" alt="YouTube"></a></li>
+    </ul>
+  </nav>
+  <header class="hero" id="home">
+    <div class="hero-bg"><img src="img/header.jpg" alt="" width="1920" height="1200"></div>
+    <h1 class="hero-title">Welcome to LOUDIVA</h1>
+  </header>
+
+  <main>
+    <a class="banner" href="https://lisa.lnk.to/AlterEgo" target="_blank" rel="noopener noreferrer" aria-label="Lisa, Alter Ego, out now">
+      <img src="img/bannerLISA.jpg" alt="" loading="lazy">
+      <span class="banner-text"><strong>ALTER EGO</strong><span class="banner-tag">out now</span></span>
+    </a>
+    <a class="banner banner--ive" href="https://open.spotify.com/album/3BSpzEq1p4bSWdvrEKtOcF" target="_blank" rel="noopener noreferrer" aria-label="IVE, REVIVE+, out now">
+      <img src="img/bannerIVE.jpg" alt="" loading="lazy">
+      <span class="banner-text"><strong>REVIVE+</strong><span class="banner-tag">out now</span></span>
+    </a>
+
+    <section class="about wipe-section" id="about">
+      <div class="wipe">
+        <h2>THE FUSION OF<br>SOUND &amp; INNOVATION</h2>
+        <p>At LOUDIVA, we manage artists who move freely between genres and connect with listeners of every generation. Fresh ideas and honest work sit at the center of everything we make, and we measure ourselves by how far the music travels.</p>
+        <p>Step into the first chapter of the LOUDIVA era with us.</p>
+      </div>
+    </section>
+
+    <section class="artist wipe-section" id="artist">
+      <div class="slides" id="lisa-slides"></div>
+      <div class="wipe">
+        <h2>LISA</h2>
+        <p>LISA, renowned as a member of BLACKPINK, reaches far beyond the group with her global impact in music and fashion.</p>
+        <p>She holds multiple Guinness World Records and has won Best K-pop at both the MTV Video Music Awards and the MTV Europe Music Awards.</p>
+        <p>Each new project pushes further, and her journey keeps setting the pace for global entertainment.</p>
+        <ul class="socials">
+          <li><a href="https://www.tiktok.com/@lalalalisa_m" target="_blank" rel="noopener noreferrer" aria-label="LISA on TikTok"><img src="img/tiktok.png" alt="TikTok"></a></li>
+          <li><a href="https://www.instagram.com/lalalalisa_m/" target="_blank" rel="noopener noreferrer" aria-label="LISA on Instagram"><img src="img/instagram.png" alt="Instagram"></a></li>
+          <li><a href="https://www.youtube.com/@lalalalisa_m" target="_blank" rel="noopener noreferrer" aria-label="LISA on YouTube"><img src="img/youtube.png" alt="YouTube"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="artist wipe-section" id="ive">
+      <div class="slides" id="ive-slides"></div>
+      <div class="wipe">
+        <h2>IVE</h2>
+        <p>IVE is a six-member group, there are Yujin, Gaeul, Rei, Wonyoung, Liz, and Leeseo.</p>
+        <p>They debuted in December 2021 with Eleven and followed with hits like Love Dive, After Like, I Am, and Baddie.</p>
+        <p>In February 2026 they returned with their second studio album, REVIVE+, the title tracks are Blackhole and Bang Bang.</p>
+        <ul class="socials">
+          <li><a href="https://www.tiktok.com/@ive.official" target="_blank" rel="noopener noreferrer" aria-label="IVE on TikTok"><img src="img/tiktok.png" alt="TikTok"></a></li>
+          <li><a href="https://www.instagram.com/ivestarship/" target="_blank" rel="noopener noreferrer" aria-label="IVE on Instagram"><img src="img/instagram.png" alt="Instagram"></a></li>
+          <li><a href="https://www.youtube.com/channel/UC-Fnix71vRP64WXeo0ikd0Q" target="_blank" rel="noopener noreferrer" aria-label="IVE on YouTube"><img src="img/youtube.png" alt="YouTube"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" aria-label="Projects">
+      <ul class="tiles"></ul>
+    </section>
+
+    <section class="contact wipe-section" id="contact">
+      <img src="img/footer.jpg" alt="" loading="lazy">
+      <form class="wipe subscribe" id="subscribe" novalidate>
+        <h2>Subscribe for exclusive updates</h2>
+        <label for="email" style="display: none;">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Email address" autocomplete="email" required>
+        <button type="submit">Sign Up</button>
+        <p class="msg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>LOUDIVA Co. Just Slicing Website</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
